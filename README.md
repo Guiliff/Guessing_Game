@@ -1,15 +1,24 @@
-# 🎯 Guessing Game
+# 🎯 Guessing Game - ![Linguagem C](https://img.shields.io/badge/feito%20em-C-blue.svg)
+
 Um simples jogo de adivinhação escrito em linguagem C, executado no terminal. O objetivo
 é adivinhar corretamente um número secreto gerado aleatoriamente entre 0 e 50. O jogo
 possui três níveis de dificuldade, cada um com uma quantidade limitada de tentativas.
 ## 🚀 Como Jogar
 1. **Clone ou copie o código** para sua máquina.
-2. **Compile o código** com o GCC no terminal:
+```bash
+git clone https://github.com/Guiliff/Guessing_Game.git
+cd Guessing_Game
+```
+
+3. **Compile o código** com o GCC no terminal:
 ```bash
 gcc guessing_game.c -o guessing_game.out
 ./guessing_game.out
 ```
-[Compilando o jogo](https://github.com/Guiliff/Guessing_Game/blob/main/assets/gccg.gif)
+
+<div align="center">
+  <img src="https://github.com/Guiliff/Guessing_Game/blob/main/assets/gccg.gif?raw=true" alt="Compilando o jogo" />
+</div>
 
 3. **Escolha o nível de dificuldade:**
 - (1) Fácil -> 15 tentativas
@@ -19,7 +28,9 @@ gcc guessing_game.c -o guessing_game.out
 Com base nas dicas dadas pelo jogo (muito alto, muito baixo ou correto), tente acertar o
 número antes que suas tentativas se esgotem.
 
-[Testando o jogo](https://github.com/Guiliff/Guessing_Game/blob/main/assets/test.gif)
+<div align="center">
+  <img src="https://github.com/Guiliff/Guessing_Game/blob/main/assets/test.gif?raw=true" alt="Testando o jogo" />
+</div>
 
 ## 🧠 Lógica do Jogo
 - O número secreto é gerado aleatoriamente entre 0 e 50.
