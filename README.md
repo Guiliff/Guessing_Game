@@ -10,7 +10,7 @@ git clone https://github.com/Guiliff/Guessing_Game.git
 cd Guessing_Game
 ```
 
-3. **Compile o código** com o GCC no terminal:
+2. **Compile o código** com o GCC no terminal:
 ```bash
 gcc guessing_game.c -o guessing_game.out
 ./guessing_game.out
